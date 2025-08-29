@@ -1,5 +1,7 @@
 Sudo apt update
+
 Sudo apt install gcc g++
+
 sudo apt install libncurses5-dev libncursesw5-dev
 
 make
