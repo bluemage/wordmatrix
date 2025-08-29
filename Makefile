@@ -8,7 +8,7 @@ CFLAGS = -O2 -DNCURSES_WIDECHAR=1 -DEXCLUDE_CONFIG_H -DVERSION=\"dev\" \
   -DHAVE_USE_DEFAULT_COLORS -DUSE_TIOCSTI -DHAVE_RESIZETERM -DHAVE_WRESIZE \
   $(PKG_CFLAGS)
 
-SRC = /home/magesage/Documents/wordmatrix/cmatrix/cmatrix.c
+SRC = cmatrix.c
 BIN = wcmatrix
 
 all: $(BIN)
