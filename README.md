@@ -1,3 +1,5 @@
+Debian based OS
+
 Sudo apt update
 
 Sudo apt install gcc g++
@@ -8,4 +10,4 @@ make
 or
 make -B
 
-./wcmatrix -w “words here”
+./wcmatrix -w “hello, words!”
